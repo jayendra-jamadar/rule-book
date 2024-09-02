@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Rules</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Game Rules</h1>
+        
+        <h2>1. Event Structure</h2>
+        <ul>
+            <li>The event consists of 4 rounds.</li>
+            <li>The first 3 rounds are 1 hour each, and the final round is 1.5 hours.</li>
+        </ul>
+
+        <h2>2. Country and Company Assignment</h2>
+        <ul>
+            <li>Each country will be assigned 2 companies.</li>
+            <li>One from a strong sector of the country.</li>
+            <li>One from any sector other than the country’s strong sector.</li>
+        </ul>
+
+        <h2>3. Sectors</h2>
+        <ul>
+            <li>Defence</li>
+            <li>Healthcare</li>
+            <li>Technology</li>
+            <li>Finance</li>
+            <li>Agriculture</li>
+        </ul>
+
+        <h2>4. Initial Resources</h2>
+        <ul>
+            <li>Each country will start with a base treasury amount of ₹1 crore and a GDP of ₹100 crores.</li>
+        </ul>
+
+        <h2>5. GDP Influence</h2>
+        <ul>
+            <li>A country’s GDP will be influenced by various factors including:</li>
+            <ul>
+                <li>The performance (profit/loss) of the companies owned.</li>
+                <li>Sector and indigenous bonuses.</li>
+                <li>Any loans taken.</li>
+                <li>Changes to the treasury.</li>
+            </ul>
+        </ul>
+
+        <h2>6. Internal Bidding Rounds</h2>
+        <ul>
+            <li>There will be two internal bidding rounds each lasting 15 minutes.</li>
+            <li>These will take place after Round 1 and Round 3.</li>
+            <li>During these periods, countries may trade the companies they have acquired with each other.</li>
+        </ul>
+
+        <h2>Bidding Rules</h2>
+        <h3>1. Company Information Presentation</h3>
+        <ul>
+            <li>A presentation with detailed information about various companies will be displayed.</li>
+            <li>The information provided will include:</li>
+            <ul>
+                <li>Company Name</li>
+                <li>Country of Origin</li>
+                <li>Sector</li>
+                <li>Revenue</li>
+                <li>Base Price</li>
+            </ul>
+            <li>Participants must use this data to decide whether to place a bid for the company.</li>
+        </ul>
+
+        <h3>2. Bidding Process</h3>
+        <ul>
+            <li>The bidding will start at the base price.</li>
+            <li>Bids will increase gradually.</li>
+            <li>If the time limit is exceeded, the last bid within the bidding time will be considered final.</li>
+        </ul>
+
+        <h3>3. Time Allocation for Each Bid</h3>
+        <ul>
+            <li>Total Duration: 4 minutes</li>
+            <li>1 minute: Company description</li>
+            <li>2.5 minutes: Bidding</li>
+            <li>0.5 minute: Buffer</li>
+        </ul>
+
+        <h2>Details Visible to the User</h2>
+        <ul>
+            <li>Country Name</li>
+            <li>GDP</li>
+            <li>Treasury</li>
+            <li>Strong Sector</li>
+            <li>Loan Details</li>
+            <li>Sectors of Investment: Displayed in the form of a pie chart.</li>
+        </ul>
+        
+        <h2>Options Available to the User</h2>
+        <h3>Loan Management</h3>
+        <ul>
+            <li>Loan Allotment and Repayment:</li>
+            <li>User can apply for or repay a loan.</li>
+            <li>An interest (simple interest) of 12% will be deducted after every 5 bids and 1/10 of the remaining principal will also be deducted.</li>
+            <li>Example:</li>
+            <ul>
+                <li>Loan amount: ₹1000</li>
+                <li>First installment: ₹100 (principal) + ₹120 (interest) = ₹220</li>
+                <li>Remaining principal: ₹900</li>
+                <li>Second installment: ₹90 (principal) + ₹108 (interest) = ₹198</li>
+            </ul>
+        </ul>
+
+        <h3>Foreign Exchange Management</h3>
+        <ul>
+            <li>Exchange Rates & Repayments:</li>
+            <li>User may buy or sell foreign currency.</li>
+            <li>In the case of purchase, 2% of the transacted amount will be deducted from the user’s account and transferred to the country from which the currency is being bought.</li>
+        </ul>
+    </div>
+</body>
+</html>
